@@ -1,7 +1,10 @@
 /assets
 /core
+/fonts
+/css
 /data
 /images
 /extensions
+/protected
 /modules
 covenapp.sql
