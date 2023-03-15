@@ -1,12 +1,12 @@
 # Plataforma para administracion completa de ventas de Chip Sim Card.
 
-## Para usuarios Gerentes -> Coordinadores -> Vendedores
-
 ```
-Al codigo le falta mantenimiento ya que fue un proyecto del 2018
-Podria desarrollar desde cero con Laravel, pero falta financiamiento.
-Yii Framework
+
+Se ha actualizado la version del framework al mas reciente, ya con eso puede funcionar con la ultima version de PHP.
+
+Yii Framework 1.1.28
 Mysql
+PHP 5.4 hacia arriba
 
 Modulos:
 Administrador
@@ -18,4 +18,5 @@ Parametrizaciones
 Seguridad
 Trazabilidad
 Ventas
+
 ```
