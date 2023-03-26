@@ -6,8 +6,7 @@ class AuthRBAC extends CApplicationComponent {
         
     }
 
-    public function checkAccess($item = NULL) {        
-        
+    public function checkAccess($item = NULL) {
         Yii::import('application.modules.seguridad.models.Users');
         Yii::import('application.modules.seguridad.models.UsersRolesItems');
         Yii::import('application.modules.seguridad.models.RolesItems');
@@ -26,17 +25,15 @@ class AuthRBAC extends CApplicationComponent {
             $validacion = UsersRolesItems::model()->findAll($sql);
           
             
-            if(is_array($validacion)){
-                if (count($validacion) == 1) {
-                    return TRUE;
-                } else {
-                    return FALSE;
-                }
-            }
+            if(!empty($validacion))
+                return TRUE;
+            else
+                return false;    
+                
             
-        } else {
+            
+        } else 
             return FALSE;
-        }
     }
 
 }

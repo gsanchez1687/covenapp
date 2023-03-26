@@ -7861,3 +7861,604 @@ Stack trace:
 REQUEST_URI=/covenapp/plugins/daterangepicker/daterangepicker-bs3.css
 HTTP_REFERER=http://localhost:8888/covenapp/
 ---
+2023/03/26 16:04:15 [error] [php] Required parameter $tabla follows optional parameter $path (/Applications/MAMP/htdocs/covenapp/protected/components/Controller.php:39)
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/YiiBase.php(463): include()
+#1 /Applications/MAMP/htdocs/covenapp/protected/controllers/SiteController.php(2): autoload()
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(354): require()
+#3 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(276): CWebApplication->createController()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/covenapp/
+2023/03/26 16:04:33 [error] [php] Required parameter $tabla follows optional parameter $path (/Applications/MAMP/htdocs/covenapp/protected/components/Controller.php:39)
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/YiiBase.php(463): include()
+#1 /Applications/MAMP/htdocs/covenapp/protected/controllers/SiteController.php(2): autoload()
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(354): require()
+#3 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(276): CWebApplication->createController()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/covenapp/
+2023/03/26 16:05:41 [error] [php] Required parameter $tabla follows optional parameter $path (/Applications/MAMP/htdocs/covenapp/protected/components/Controller.php:39)
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/YiiBase.php(463): include()
+#1 /Applications/MAMP/htdocs/covenapp/protected/controllers/SiteController.php(2): autoload()
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(354): require()
+#3 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(276): CWebApplication->createController()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/covenapp/
+2023/03/26 16:05:49 [error] [php] Required parameter $tabla follows optional parameter $path (/Applications/MAMP/htdocs/covenapp/protected/components/Controller.php:60)
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/YiiBase.php(463): include()
+#1 /Applications/MAMP/htdocs/covenapp/protected/controllers/SiteController.php(2): autoload()
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(354): require()
+#3 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(276): CWebApplication->createController()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/covenapp/
+2023/03/26 16:06:04 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "plugins/daterangepicker/daterangepicker-bs3.css" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('plugins/dateran...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/plugins/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost:8888/covenapp/
+---
+2023/03/26 16:06:07 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "android-icon-192x192.png" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('android-icon-19...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/android-icon-192x192.png
+HTTP_REFERER=http://localhost:8888/covenapp/
+---
+2023/03/26 16:06:48 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "plugins/daterangepicker/daterangepicker-bs3.css" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('plugins/dateran...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/plugins/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost:8888/covenapp/site/login
+---
+2023/03/26 16:09:46 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /Applications/MAMP/htdocs/covenapp/themes/classic/views/layouts/main.php:466
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#1 /Applications/MAMP/htdocs/covenapp/core/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/Applications/M...', Array, true)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 /Applications/MAMP/htdocs/covenapp/core/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(215): COutputProcessor->run()
+#5 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 /Applications/MAMP/htdocs/covenapp/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(126): require('/Applications/M...')
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(787): CBaseController->renderFile('/Applications/M...', Array, true)
+#10 /Applications/MAMP/htdocs/covenapp/protected/controllers/SiteController.php(58): CController->render('index')
+#11 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('index')
+#16 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#17 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/covenapp/site/index
+HTTP_REFERER=http://localhost:8888/covenapp/site/login
+---
+2023/03/26 16:09:59 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /Applications/MAMP/htdocs/covenapp/themes/classic/views/layouts/main.php:466
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#1 /Applications/MAMP/htdocs/covenapp/core/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/Applications/M...', Array, true)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 /Applications/MAMP/htdocs/covenapp/core/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(215): COutputProcessor->run()
+#5 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 /Applications/MAMP/htdocs/covenapp/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(126): require('/Applications/M...')
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(787): CBaseController->renderFile('/Applications/M...', Array, true)
+#10 /Applications/MAMP/htdocs/covenapp/protected/controllers/SiteController.php(58): CController->render('index')
+#11 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('index')
+#16 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#17 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/covenapp/site/index
+HTTP_REFERER=http://localhost:8888/covenapp/site/login
+---
+2023/03/26 16:12:31 [error] [exception.CHttpException.403] CHttpException: Su usuario no tiene los privilegios necesarios para acceder a esta seccion, 
+                    porfavor si cree que esto es un error, consulte al administrador del sistema.<br/>
+                    Este evento ha sido registrado. in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:283
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/admin
+---
+2023/03/26 16:14:44 [error] [exception.CHttpException.403] CHttpException: Su usuario no tiene los privilegios necesarios para acceder a esta seccion, 
+                    porfavor si cree que esto es un error, consulte al administrador del sistema.<br/>
+                    Este evento ha sido registrado. in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:283
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/items/admin
+---
+2023/03/26 16:15:30 [error] [exception.CHttpException.403] CHttpException: Su usuario no tiene los privilegios necesarios para acceder a esta seccion, 
+                    porfavor si cree que esto es un error, consulte al administrador del sistema.<br/>
+                    Este evento ha sido registrado. in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:283
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/items/admin
+---
+2023/03/26 16:16:33 [error] [exception.CHttpException.403] CHttpException: Su usuario no tiene los privilegios necesarios para acceder a esta seccion, 
+                    porfavor si cree que esto es un error, consulte al administrador del sistema.<br/>
+                    Este evento ha sido registrado. in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:283
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/items/admin
+---
+2023/03/26 16:16:34 [error] [exception.CHttpException.403] CHttpException: Su usuario no tiene los privilegios necesarios para acceder a esta seccion, 
+                    porfavor si cree que esto es un error, consulte al administrador del sistema.<br/>
+                    Este evento ha sido registrado. in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:283
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/items/admin
+---
+2023/03/26 16:17:53 [error] [exception.ParseError] ParseError: syntax error, unexpected token "else", expecting "function" or "const" in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(338): CWebApplication->createController('rolesitems/', Object(SeguridadModule))
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(276): CWebApplication->createController('menus/rolesitem...')
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#3 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/items/admin
+---
+2023/03/26 16:17:54 [error] [exception.ParseError] ParseError: syntax error, unexpected token "else", expecting "function" or "const" in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(338): CWebApplication->createController('rolesitems/', Object(SeguridadModule))
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(276): CWebApplication->createController('menus/rolesitem...')
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#3 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/items/admin
+---
+2023/03/26 16:18:14 [error] [exception.ParseError] ParseError: syntax error, unexpected token "public", expecting end of file in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:290
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(338): CWebApplication->createController('rolesitems/', Object(SeguridadModule))
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(276): CWebApplication->createController('menus/rolesitem...')
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#3 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/items/admin
+---
+2023/03/26 16:18:27 [error] [exception.CHttpException.403] CHttpException: Su usuario no tiene los privilegios necesarios para acceder a esta seccion, 
+                    porfavor si cree que esto es un error, consulte al administrador del sistema.<br/>
+                    Este evento ha sido registrado. in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:283
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/items/admin
+---
+2023/03/26 16:19:07 [error] [exception.TypeError] TypeError: count(): Argument #1 ($var) must be of type Countable|array, RolesItems given in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:213
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:19:29 [error] [exception.TypeError] TypeError: count(): Argument #1 ($var) must be of type Countable|array, RolesItems given in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:213
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:20:35 [error] [exception.TypeError] TypeError: count(): Argument #1 ($var) must be of type Countable|array, RolesItems given in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:214
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:20:37 [error] [exception.TypeError] TypeError: count(): Argument #1 ($var) must be of type Countable|array, RolesItems given in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:214
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:21:03 [error] [exception.TypeError] TypeError: count(): Argument #1 ($var) must be of type Countable|array, RolesItems given in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:212
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:21:04 [error] [exception.TypeError] TypeError: count(): Argument #1 ($var) must be of type Countable|array, RolesItems given in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:212
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:22:22 [error] [exception.Error] Error: Call to undefined function fount() in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:212
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:23:52 [error] [exception.TypeError] TypeError: count(): Argument #1 ($var) must be of type Countable|array, RolesItems given in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:212
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#11 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:24:34 [error] [exception.TypeError] TypeError: count(): Argument #1 ($value) must be of type Countable|array, RolesItems given in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:212
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php(212): count(Object(RolesItems), 1)
+#1 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#11 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#12 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:24:37 [error] [exception.TypeError] TypeError: count(): Argument #1 ($value) must be of type Countable|array, RolesItems given in /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php:212
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/MenusController.php(212): count(Object(RolesItems), 1)
+#1 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): MenusController->actionRolesitems()
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): CController->run('rolesitems')
+#11 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('seguridad/menus...')
+#12 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/covenapp/seguridad/menus/rolesitems
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/menus/rolesitems
+---
+2023/03/26 16:29:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "plugins/daterangepicker/daterangepicker-bs3.css" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('plugins/dateran...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/plugins/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost:8888/covenapp/site/login
+---
+2023/03/26 16:30:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "plugins/daterangepicker/daterangepicker-bs3.css" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('plugins/dateran...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/plugins/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost:8888/covenapp/site/login
+---
+2023/03/26 16:33:45 [error] [php] Required parameter $venta_id follows optional parameter $total (/Applications/MAMP/htdocs/covenapp/protected/modules/ventas/models/Ventas.php:1174)
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/YiiBase.php(435): include()
+#1 /Applications/MAMP/htdocs/covenapp/protected/components/Controller.php(538): autoload()
+#2 /Applications/MAMP/htdocs/covenapp/protected/views/site/index.php(22): SiteController->TotalesVentas()
+#3 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(126): require()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(95): SiteController->renderInternal()
+#5 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(872): SiteController->renderFile()
+#6 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(785): SiteController->renderPartial()
+#7 /Applications/MAMP/htdocs/covenapp/protected/controllers/SiteController.php(58): SiteController->render()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams()
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(286): SiteController->runAction()
+#11 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): SiteController->run()
+#13 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/covenapp/site/index
+2023/03/26 16:37:46 [error] [php] Required parameter $venta_id follows optional parameter $total (/Applications/MAMP/htdocs/covenapp/protected/modules/ventas/models/Ventas.php:1174)
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/YiiBase.php(435): include()
+#1 /Applications/MAMP/htdocs/covenapp/protected/components/Controller.php(538): autoload()
+#2 /Applications/MAMP/htdocs/covenapp/protected/views/site/index.php(22): SiteController->TotalesVentas()
+#3 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(126): require()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(95): SiteController->renderInternal()
+#5 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(872): SiteController->renderFile()
+#6 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(785): SiteController->renderPartial()
+#7 /Applications/MAMP/htdocs/covenapp/protected/controllers/SiteController.php(58): SiteController->render()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams()
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(286): SiteController->runAction()
+#11 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): SiteController->run()
+#13 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/covenapp/site/index
+2023/03/26 16:37:47 [error] [php] Required parameter $venta_id follows optional parameter $total (/Applications/MAMP/htdocs/covenapp/protected/modules/ventas/models/Ventas.php:1174)
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/YiiBase.php(435): include()
+#1 /Applications/MAMP/htdocs/covenapp/protected/components/Controller.php(538): autoload()
+#2 /Applications/MAMP/htdocs/covenapp/protected/views/site/index.php(22): SiteController->TotalesVentas()
+#3 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(126): require()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(95): SiteController->renderInternal()
+#5 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(872): SiteController->renderFile()
+#6 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(785): SiteController->renderPartial()
+#7 /Applications/MAMP/htdocs/covenapp/protected/controllers/SiteController.php(58): SiteController->render()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams()
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(286): SiteController->runAction()
+#11 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): SiteController->run()
+#13 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/covenapp/site/index
+2023/03/26 16:39:07 [error] [php] Undefined variable $model (/Applications/MAMP/htdocs/covenapp/protected/components/Controller.php:397)
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/views/users/grafico.php(35): UsersController->ChartVendedores()
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(126): require()
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(95): UsersController->renderInternal()
+#3 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(872): UsersController->renderFile()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(785): UsersController->renderPartial()
+#5 /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/UsersController.php(199): UsersController->render()
+#6 unknown(0): UsersController->actionGrafico()
+#7 /Applications/MAMP/htdocs/covenapp/core/web/actions/CAction.php(115): ReflectionMethod->invokeArgs()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#9 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams()
+#10 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): UsersController->runAction()
+#11 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CAccessControlFilter->filter()
+#13 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#14 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#15 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#16 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): UsersController->runActionWithFilters()
+#17 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): UsersController->run()
+#18 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController()
+#19 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#20 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/covenapp/seguridad/users/grafico/id/1
+2023/03/26 16:39:52 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "plugins/daterangepicker/daterangepicker-bs3.css" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('plugins/dateran...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/plugins/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost:8888/covenapp/site/login
+---
+2023/03/26 16:40:22 [error] [php] Uninitialized string offset 0 (/Applications/MAMP/htdocs/covenapp/core/i18n/CDateFormatter.php:93)
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/i18n/CDateFormatter.php(121): CDateFormatter->format()
+#1 /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/views/users/grafico.php(153): CDateFormatter->formatDateTime()
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/covenapp/core/web/CBaseController.php(95): UsersController->renderInternal()
+#4 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(872): UsersController->renderFile()
+#5 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(785): UsersController->renderPartial()
+#6 /Applications/MAMP/htdocs/covenapp/protected/modules/seguridad/controllers/UsersController.php(199): UsersController->render()
+#7 unknown(0): UsersController->actionGrafico()
+#8 /Applications/MAMP/htdocs/covenapp/core/web/actions/CAction.php(115): ReflectionMethod->invokeArgs()
+#9 /Applications/MAMP/htdocs/covenapp/core/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(308): CInlineAction->runWithParams()
+#11 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(134): UsersController->runAction()
+#12 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(1148): CAccessControlFilter->filter()
+#14 /Applications/MAMP/htdocs/covenapp/core/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#15 /Applications/MAMP/htdocs/covenapp/core/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#16 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(291): CFilterChain->run()
+#17 /Applications/MAMP/htdocs/covenapp/core/web/CController.php(265): UsersController->runActionWithFilters()
+#18 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(282): UsersController->run()
+#19 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController()
+#20 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/covenapp/seguridad/users/grafico/id/39

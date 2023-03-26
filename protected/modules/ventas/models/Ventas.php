@@ -1171,7 +1171,7 @@ class Ventas extends CActiveRecord {
         return $ventas;
     }
     
-    public function getMeses($total = null, $base = null, $venta_id, $Fecha_inicio = null, $Fecha_fin = null, $operador = null) {
+    public function getMeses($total = null, $base = null, $venta_id = '', $Fecha_inicio = null, $Fecha_fin = null, $operador = null) {
 
         $MesInicio = substr($Fecha_inicio, 5, 2);
         $MesFin = substr($Fecha_fin, 5, 2);
@@ -1188,7 +1188,7 @@ class Ventas extends CActiveRecord {
 
         foreach ($comisionesVentasMeses as $datos):
             $transaccion = new Transaccion();
-            $transaccion->venta_id = $venta_id;
+            $transaccion->venta_id = @$venta_id;
             $transaccion->comision_total_conexcel = $total; /* valor del plan sin iva con el 240% */
             $transaccion->base_comision_conexcel = str_replace(',', '', $base); /* base: valor sin iva */
             $transaccion->comision = $base * $datos->porcentaje;

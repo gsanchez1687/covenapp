@@ -36,7 +36,7 @@ class Controller extends CController {
         parent::__construct($id, $module);
     }
 
-    public function Upload($model, $attribute, $path = '/images/', $tabla, $bool = FALSE) {
+    public function Upload($model, $attribute, $path = '/images/', $tabla = '', $bool = FALSE) {
         $objeto = CUploadedFile::getInstance($model, $attribute);
         if (is_object($objeto)) {
             $file = CUploadedFile::getInstance($model, $attribute);
@@ -57,7 +57,7 @@ class Controller extends CController {
         }
     }
 
-    public static function CreateUpload($model, $attribute, $path = '/images/', $tabla, $bool = FALSE) {
+    public static function CreateUpload($model, $attribute, $path = '/images/', $tabla = '', $bool = FALSE) {
         $objeto = CUploadedFile::getInstance($model, $attribute);
         if (is_object($objeto)) {
             $file = CUploadedFile::getInstance($model, $attribute);

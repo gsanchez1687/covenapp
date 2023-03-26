@@ -179,7 +179,7 @@ class MenusController extends Controller {
 
     public function actionRolesitems() {
         
-        if(Yii::app()->authRBAC->checkAccess('roles_admin')){
+       // if(Yii::app()->authRBAC->checkAccess('roles_admin')){
 
         /* Inicio de la Transaccion */
         $transaccion_sql = Yii::app()->db->beginTransaction();
@@ -201,7 +201,7 @@ class MenusController extends Controller {
                 );
 
                 if (isset($_POST['Items'])) {
-
+                    $rol = array();
                     foreach ($_POST['Items'] as $a => $b) {
 
                         $rol = RolesItems::model()->find(array(
@@ -209,8 +209,9 @@ class MenusController extends Controller {
                             'params' => array(':item_id' => $a, ':rol_id' => $model->rol_id)
                                 )
                         );
+                      
 
-                        if (count($rol) == 1) {
+                        if (!empty($rol)) {
                             $rol->active = 1;
                         } else {
                             $rol = new RolesItems;
@@ -277,14 +278,14 @@ class MenusController extends Controller {
         }
 
         $this->render('rolesitems', array('model' => $model,'options' => $options));
-        } else{
+        //} else{
                      
               
-                   throw new CHttpException(403,'Su usuario no tiene los privilegios necesarios para acceder a esta seccion, 
-                    porfavor si cree que esto es un error, consulte al administrador del sistema.<br/>
-                    Este evento ha sido registrado.');
+                   //throw new CHttpException(403,'Su usuario no tiene los privilegios necesarios para acceder a esta seccion, 
+                   // porfavor si cree que esto es un error, consulte al administrador del sistema.<br/>
+                    //Este evento ha sido registrado.');
              
-        }
+        //}
     }
 
     public function actionUsersitems($id = NULL) {
