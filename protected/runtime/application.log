@@ -8462,3 +8462,30 @@ Stack trace:
 #20 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
 #21 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
 REQUEST_URI=/covenapp/seguridad/users/grafico/id/39
+2023/03/26 16:56:44 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/818d5945/bootstrap-datepicker/css/bootstrap-datepicker3.css" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('assets/818d5945...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/assets/818d5945/bootstrap-datepicker/css/bootstrap-datepicker3.css
+HTTP_REFERER=http://localhost:8888/covenapp/ventas/ventas/radicador
+---
+2023/03/26 16:56:44 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/818d5945/bootstrap-datepicker/css/bootstrap-datepicker3.css" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('assets/818d5945...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/assets/818d5945/bootstrap-datepicker/css/bootstrap-datepicker3.css
+HTTP_REFERER=http://localhost:8888/covenapp/ventas/ventas/radicador
+---
+2023/03/26 17:00:58 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/818d5945/bootstrap-datepicker/css/bootstrap-datepicker3.css" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('assets/818d5945...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/assets/818d5945/bootstrap-datepicker/css/bootstrap-datepicker3.css
+HTTP_REFERER=http://localhost:8888/covenapp/ventas/ventas/radicador
+---
