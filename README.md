@@ -8,13 +8,13 @@
 
 ```
 
-Se ha actualizado la version del framework al mas reciente, ya con eso puede funcionar con la ultima version de PHP.
+Se ha actualizado la versión del framework al mas reciente, ya con eso puede funcionar con la ultima versión de PHP.
 
 Yii Framework 1.1.12 -> 1.1.28
 PHP 5.4 -> PHP 8
 MYSQL
 
-Modulos:
+Módulos:
 Administrador
 Carga masiva
 Clientes
