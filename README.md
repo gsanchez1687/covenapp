@@ -1,5 +1,6 @@
 # Plataforma para administración completa de ventas de Chip Sim Card.
 
+![captura1](https://raw.githubusercontent.com/gsanchez1687/covenapp/main/images/captura0.jpg)
 ![captura1](https://raw.githubusercontent.com/gsanchez1687/covenapp/main/images/Captura1.png)
 ![Captura2](https://raw.githubusercontent.com/gsanchez1687/covenapp/main/images/Captura2.png)
 ![Captura3](https://raw.githubusercontent.com/gsanchez1687/covenapp/main/images/Captura3.png)

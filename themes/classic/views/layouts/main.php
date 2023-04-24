@@ -13,7 +13,7 @@
     <meta name="description" content="CONEXCEL es una empresa privada líder en el área de las telecomunicaciones que ofrece a los colombianos grandes facilidades para poder estar al día con la tecnología. Rompemos el paradigma de asociar las telecomunicaciones con altos costos. Queremos que nuestros clientes entiendan que la telefonía celular es una inversión verdaderamente eficiente para alcanzar sus metas comerciales y personales, manteniéndose comunicados y al día con el mundo.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />    
     <meta name="author" CONTENT="Guillermo Enrique gsanchez1687@gmail.com">
-    <meta name="theme-color" content="#2962FF" />          
+    <meta name="theme-color" content="#2962FF" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl ?>/images/logo.png" type="image/x-icon">    
     <link rel="apple-touch-icon" sizes="57x57" href="<?php echo Yii::app()->request->baseUrl ?>/images/favicon/apple-icon-57x57.png">
