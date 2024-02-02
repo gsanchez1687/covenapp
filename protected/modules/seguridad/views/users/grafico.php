@@ -387,25 +387,23 @@ $externaDIRECTV = Controller::ChartVendedores(8,'',43,$FechaActual,$FechaFin,$id
                                                 <td><b>NO PAGO</b></td>
                                             </tr>
                                             </thead>
-                                            
-                                            
-                                                <?php $cont = 1;  foreach ( Controller::getRoles() as $data ): ?>
-                                          
-                                          
-                                                 <tr>                                               
-                                                    <td><?php echo $cont.' '.$data->nombre.' '.$data->segundo_nombre.' '.$data->apellido.' '.$data->segundo_apellido; ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,36,$FechaActual,$FechaFin); ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,42,$FechaActual,$FechaFin); ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,43,$FechaActual,$FechaFin); ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,37,$FechaActual,$FechaFin); ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,35,$FechaActual,$FechaFin); ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,38,$FechaActual,$FechaFin); ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,39,$FechaActual,$FechaFin); ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,40,$FechaActual,$FechaFin); ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,41,$FechaActual,$FechaFin); ?></td>
-                                                    <td><?php echo Controller::getCoordinadorVsEstados($data->id,44,$FechaActual,$FechaFin); ?></td>                                                  
-                                                 </tr> 
-                                                <?php $cont = $cont+1; endforeach; ?>
+                                                <?php if( !empty(Controller::getRoles()) ): ?>
+                                                    <?php $cont = 1;  foreach ( Controller::getRoles() as $data ): ?>
+                                                    <tr>                                               
+                                                        <td><?php echo $cont.' '.$data->nombre.' '.$data->segundo_nombre.' '.$data->apellido.' '.$data->segundo_apellido; ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,36,$FechaActual,$FechaFin); ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,42,$FechaActual,$FechaFin); ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,43,$FechaActual,$FechaFin); ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,37,$FechaActual,$FechaFin); ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,35,$FechaActual,$FechaFin); ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,38,$FechaActual,$FechaFin); ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,39,$FechaActual,$FechaFin); ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,40,$FechaActual,$FechaFin); ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,41,$FechaActual,$FechaFin); ?></td>
+                                                        <td><?php echo Controller::getCoordinadorVsEstados($data->id,44,$FechaActual,$FechaFin); ?></td>                                                  
+                                                    </tr> 
+                                                    <?php $cont = $cont+1; endforeach; ?>
+                                                <?php endif; ?>
                                                 <tr style="background-color: #dfe6e9;">
                                                 <td><strong>TOTALES</strong></td>
                                                 <td><?php echo $valor1 = $completadaAVANTEL   +  $completadaETB_MOVIL   + $completadaETB_FIJA + $completadaCLARO_MOVIL + $completadaCLARO_FIJA  + $completadaMOVISTART_MOVIL + $completadaMOVISTART_FIJA;  ?></td>
