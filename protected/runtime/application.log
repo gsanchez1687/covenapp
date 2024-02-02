@@ -8708,3 +8708,30 @@ Stack trace:
 REQUEST_URI=/covenapp/cargaMasiva/planes/admin
 HTTP_REFERER=http://localhost:8888/covenapp/seguridad/users/admin
 ---
+2024/02/02 09:35:46 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/bd6f4d49/adapters/mootools-adapter.src.js" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('assets/bd6f4d49...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/assets/bd6f4d49/adapters/mootools-adapter.src.js
+HTTP_REFERER=http://localhost:8888/covenapp/ventas/ventas/graficos
+---
+2024/02/02 09:36:04 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/bd6f4d49/adapters/mootools-adapter.src.js" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('assets/bd6f4d49...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/assets/bd6f4d49/adapters/mootools-adapter.src.js
+HTTP_REFERER=http://localhost:8888/covenapp/ventas/ventas/graficos
+---
+2024/02/02 09:40:27 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/ca687ddf/adapters/mootools-adapter.src.js" in /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('assets/ca687ddf...')
+#1 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/covenapp/assets/ca687ddf/adapters/mootools-adapter.src.js
+HTTP_REFERER=http://localhost:8888/covenapp/ventas/ventas/graficos
+---
