@@ -8697,3 +8697,14 @@ Stack trace:
 #18 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
 #19 /Applications/MAMP/htdocs/covenapp/index.php(13): CWebApplication->run()
 REQUEST_URI=/covenapp/seguridad/users/grafico/id/945
+2024/02/02 09:32:46 [error] [exception.ParseError] ParseError: syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Applications/MAMP/htdocs/covenapp/protected/modules/cargaMasiva/controllers/PlanesController.php:88
+Stack trace:
+#0 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(338): CWebApplication->createController('admin/', Object(CargaMasivaModule))
+#1 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(276): CWebApplication->createController('planes/admin/')
+#2 /Applications/MAMP/htdocs/covenapp/core/web/CWebApplication.php(141): CWebApplication->runController('cargaMasiva/pla...')
+#3 /Applications/MAMP/htdocs/covenapp/core/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/covenapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/covenapp/cargaMasiva/planes/admin
+HTTP_REFERER=http://localhost:8888/covenapp/seguridad/users/admin
+---

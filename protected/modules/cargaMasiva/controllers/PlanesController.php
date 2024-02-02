@@ -85,7 +85,7 @@ class PlanesController extends Controller
                                      endwhile;
                                      fclose($handle);
                                      $transaction->commit();
-                                     Yii::app()->user->setFlash('app','Se ha importado '.$this->().' registros');                                
+                                     Yii::app()->user->setFlash('app','Se ha importado ');                                
                               else:
 
                                 Yii::app()->user->setFlash('app','Solo debe importar archivos con la extesion CSV');  
